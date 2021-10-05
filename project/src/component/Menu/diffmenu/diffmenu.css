@@ -1,0 +1,77 @@
+.buti{
+    border-radius: 50px;
+    background-color: greenyellow;
+    color: white;
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    animation: Slide_Up 2.8s ease;
+}
+.buti:hover{
+background-color: orange;
+}
+.tuni{
+    height: 600px;
+    
+}
+
+
+.midi{
+    font-size: large;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bolder;
+    animation: Slide_Up 1.4s ease;
+    margin-top: 130px;
+    color:darkblue;
+}
+
+.pari{
+    animation: Slide_Up 2.4s ease;  
+    margin-top: 40px;
+    font-size: 1rem;
+}
+@keyframes Slide_Up{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.seti{
+    margin-top: 140px;
+}
+.sett{
+    margin-bottom: 150px;
+    font-size: 3rem;
+}
+.toni{
+    height: 400px;
+}
+.bot{
+    padding: 16px;
+    border-radius: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bot:hover{
+    background-color: orangered;
+
+}
+.inp{
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+.man{
+    border-radius: 30px;
+    background-color: orangered;
+    padding: 11px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.man:hover{
+    background-color: orange;
+}

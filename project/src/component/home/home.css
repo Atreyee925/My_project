@@ -1,0 +1,45 @@
+.but{
+    border-radius: 50px;
+    background-color: greenyellow;
+    color: white;
+    padding: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    animation: Slide_Up 2.8s ease;
+}
+.but:hover{
+background-color: orange;
+}
+.tuni{
+    height: 600px;
+    
+}
+.indi{
+    border-radius: 10px;
+}
+.set{
+    margin-bottom: 100px;
+}
+.midii{
+    font-size: 2rem;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+    animation: Slide_Up 1.4s ease;
+}
+.lar{
+   font-size: 5rem; 
+   font-weight: bold;
+   animation: Slide_Up 2.1s ease;
+}
+.par{
+    animation: Slide_Up 2.4s ease;  
+}
+@keyframes Slide_Up{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
