@@ -1,0 +1,71 @@
+.jani{
+    width: 60% !important;
+    margin: 0 230px !important;
+    border-radius: 20px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+.janina{
+    width: 60% !important;
+    margin: 0 230px !important;
+    border-radius: 20px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+.sob{
+    width: 60% !important;
+    margin: 0 230px !important;
+    border-radius: 20px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important; 
+    
+}
+.sub{
+    width: 61% !important; 
+   border-radius: 20px !important;
+   /* margin: 0 32% !important; */
+   padding-bottom: 10px !important;
+    padding-top: 10px !important; 
+    margin-top: 40px !important;
+    background-color: crimson !important;
+    margin-bottom: 80px !important;
+
+}
+.r{
+    padding-top: 90px !important;
+    padding-bottom: 50px !important;
+}
+.volt{
+    color: white !important;
+}
+.ek{
+    background-color:blue;
+    color: white !important;
+    padding: 9px !important;
+    border-radius: 9px !important;
+    width: 18% !important;
+
+}
+.ekk{
+    background-color: rgb(88, 124, 240);
+    color: white !important;
+    padding: 9px !important;
+    border-radius: 9px !important;
+    width: 18% !important;
+    margin-left: 20px !important;
+    
+}
+.ekkk{
+    background-color: crimson;
+    color: white !important;
+    padding: 9px !important;
+    border-radius: 9px !important;
+    width: 18% !important;
+    margin-left: 20px !important;
+    
+}
+.alu{
+    text-align: center;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}

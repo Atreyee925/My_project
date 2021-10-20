@@ -1,0 +1,56 @@
+.kichu{
+    border: none;
+    border-bottom: 1px dashed black;
+    width: 20% !important;
+    padding-left: 20px !important;
+    margin-bottom: 40px !important;
+    margin-left: 1px !important;
+}
+.kich{
+    width: 20% !important;
+    border: none;
+    border-bottom: 1px dashed black;
+    padding-left: 20px !important;
+    margin-left: 1px !important;
+}
+.me{
+   
+    color: crimson !important;
+    margin-left: 90px !important;
+}
+.ashol{
+    margin: 40px 0 0 !important;
+    margin-left: 100px !important;
+    padding: 9px;
+    background-color: crimson;
+    color: white;
+    border-radius: 20px !important;
+    width: 11% !important;
+    margin-left: 260px !important;
+    margin-bottom: 60px !important;
+}
+.pala{
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aggo{
+  text-align:center;
+   
+   margin: 0 10% !important;
+  }
+.apod{
+    color: crimson !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin-bottom: 60% !important;
+} 
+.parchi{
+    margin-right: 200px !important;
+    width: 11% !important;
+    border-radius: 20px !important;
+    padding: 11px !important;
+    margin-left: 11px !important;
+}

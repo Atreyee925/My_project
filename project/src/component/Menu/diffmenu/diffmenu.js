@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 import MenuData from '../menu.json'
 import './diffmenu.css';
 export const Diffmenu = () => {
@@ -11,19 +12,23 @@ export const Diffmenu = () => {
                 MenuData.Menu.map((prod)=>(
                     
                         <Card className="bg-dark text-white">
-        <Card.Img src={prod.menu_img} alt="Card image" className="tuni" />
+        <Card.Img src={prod.menu_img} alt="Card image" className="tunii" />
      <Card.ImgOverlay>
     <Card.Title className="midi">{prod.menu_name}</Card.Title>
     <Card.Text className="pari">
       {prod.menu_des}
     </Card.Text>
-    <button className="buti">View Menu</button>
+    <button className="buti"><Link to={'/fullmenu'}> View Menu</Link>
+     </button>
   </Card.ImgOverlay>
 </Card>
+
                    
                 ))
             }
             <section className="seti">
+              <h1 className="big"> Foodie</h1>
+              <p className="chan">Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals</p>
             <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   
@@ -51,10 +56,10 @@ export const Diffmenu = () => {
   </div>
 </div>
             </section>
-            <footer>
+            <footer className="change">
                 <Container>
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-lg-8 col-md-12 col-sm-12">
                     <div class="row">
                         <div class="col-lg-6 col-md-2 col-sm-2">
                             <h4>Subscribe</h4>
@@ -64,20 +69,57 @@ export const Diffmenu = () => {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-10 col-md-6 col-sm-6">
+                        <div class="col-lg-8 col-md-6 col-sm-6">
                             <input type="Email" id="Email" placeholder="Your email" className="inp"></input>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
                             <button className="man">Subscribe</button>
                         </div>
                     </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm3">
-                        <h3>Follow Us</h3>
+                    <div class="col-lg-2 col-md-3 col-sm3">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h3>Follow Us</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6" >
+                    <i class="fab fa-instagram inn"></i>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" >
+                    <i class="fab fa-facebook inn"></i>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" >
+                    <i class="fab fa-twitter inn"></i>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" >
+                    <i class="fab fa-google-plus-g inn"></i>
                     </div>
                 </div>
-                </Container>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Contact us</h3>
+                        </div>
+                        
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12 col-md-6 col-sm-12">
+                        <img src="phone.webp" className="pic"></img> <a className="hov">1-90074-127</a><br/>
+                        we work everyday
+                        </div>
+                      </div>
+             
+                 
+                </div>
+                </div>
+                
+                
+               </Container>
             </footer>
+            
         </div>
     )
 }

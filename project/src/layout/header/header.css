@@ -15,12 +15,14 @@
     background-color:cornsilk;
     color: black;
     margin-left: 70px;
+    text-align: center;
 }
 .picc:hover{
-    background-color: orangered!important;
+    background-color: crimson!important;
+    opacity: 0.5;
 }
 .hov:hover{
-    color: orangered;
+    color: crimson !important;
 }
 .hov{
     color: black;
@@ -28,4 +30,37 @@
 }
 .ceni:hover{
   background-color: ghostwhite
+}
+.in:hover{
+    color: crimson !important;
+}
+.in{
+    font-size: 45px
+}
+.sush{
+    height: 60px !important;
+    
+}
+.piz{
+    height: 60px !important; 
+    
+}
+.bur{
+    height: 50px;
+    }
+.ceni{
+    /* width:11rem; */
+    padding-left: 20px;
+    text-align: center;
+}
+.buri{
+    height: 50px;
+}
+.burii{
+    height: 50px;
+    width: 100px;
+}
+.buriii{
+    height: 50px;
+    width: 103px;
 }

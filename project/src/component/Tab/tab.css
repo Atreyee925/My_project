@@ -1,0 +1,32 @@
+.neao{
+    margin: 0 130px !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+.neao:hover{
+    
+    color:crimson !important;
+    
+}
+.dista{
+    width: 60% !important;
+    margin: 0 130px !important;
+    
+}
+.dishu{
+    padding-bottom: 40px !important;
+    padding-top: 100px !important;
+}
+.trishuu{
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+.baba{
+    font-size: small !important;
+    justify-content: right;
+}
+.plate{
+    padding-bottom: 30px !important;
+    padding-top: 70px !important;
+    border-top: 1px dashed black;
+}

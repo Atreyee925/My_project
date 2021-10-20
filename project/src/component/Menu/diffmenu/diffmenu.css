@@ -1,6 +1,6 @@
 .buti{
     border-radius: 50px;
-    background-color: greenyellow;
+    background-color: crimson !important;
     color: white;
     padding: 16px;
     padding-left: 60px;
@@ -8,28 +8,31 @@
     animation: Slide_Up 2.8s ease;
 }
 .buti:hover{
-background-color: orange;
+background-color: orange !important;
 }
-.tuni{
-    height: 600px;
+.tunii{
+    height: 500px;
+    margin-top: 60px;
     
+   
 }
 
 
 .midi{
-    font-size: large;
+    font-size: 4rem !important;
     font-style: italic;
     font-family:cursive;
-    font-weight: bolder;
+    font-weight: bold;
     animation: Slide_Up 1.4s ease;
     margin-top: 130px;
-    color:darkblue;
+    color: crimson;
 }
 
 .pari{
     animation: Slide_Up 2.4s ease;  
     margin-top: 40px;
     font-size: 1rem;
+    font-weight: bold;
 }
 @keyframes Slide_Up{
     0%{
@@ -40,7 +43,8 @@ background-color: orange;
     }
 }
 .seti{
-    margin-top: 140px;
+    /* margin-top: 20px; */
+    background-color: crimson !important;
 }
 .sett{
     margin-bottom: 150px;
@@ -56,22 +60,44 @@ background-color: orange;
     padding-right: 70px;
 }
 .bot:hover{
-    background-color: orangered;
+    background-color: crimson ;
 
 }
 .inp{
     border-radius: 30px;
     padding: 12px;
-    padding-left: 145px;
-    padding-right: 145px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .man{
     border-radius: 30px;
-    background-color: orangered;
+    background-color:crimson;
     padding: 11px;
     padding-left: 55px;
     padding-right: 55px;
 }
 .man:hover{
-    background-color: orange;
+    background-color: rgba(220, 20, 60, 0.664);
+}
+.picc:hover{
+    background-color: orangered;
+}
+.big{
+    font-size: 4rem;
+}
+.change{
+   background-color: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.chan{
+    color: white;
+    font-size: 1.3rem;
+}
+.inn{
+    font-size: 25px;
+    
+}
+.inn:hover{
+    color: crimson !important;
 }
